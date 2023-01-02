@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Book Your Tour </title>
+
+    <link rel="stylesheet" href="../form.css">
+</head>
+
+<body id="body">
+
+    <h1 id="mainheading"> Starts Your Journey With Us </h1>
+
+    <form>
+
+        <fieldset class="main-border">
+
+            <legend class="p-t-info"> Personal Information </legend>
+            <div class="p-t-info">
+                Name
+                <br>
+
+                <input type="text" name="firstname" placeholder="First" required class="input-color">
+                <input type="text" name="lastname" placeholder="Last" class="input-color">
+
+                <br>
+                <br>
+
+                Email
+                <br>
+                <input type="email" name="email" placeholder="abc@gmail.com" required class="input-color">
+
+                <br>
+                <br>
+
+                Phone
+                <br>
+                <input type="text" name="phonenumber" placeholder="### ### ###" required class="input-color">
+
+                <br>
+                <br>
+
+                Nationality
+                <br>
+                <input type="text" name="nationality" class="input-color">
+
+                <br>
+                <br>
+
+                CNIC
+                <br>
+                <input type="text" name="cnic" maxlength="13" required class="input-color">
+
+                <br>
+                <br>
+
+                Date Of Birth
+                <br>
+                <input type="date" name="dateofbirth" class="input-color">
+
+                <br>
+                <br>
+
+                Passport Number
+                <br>
+                <input type="text" name="passportnumber" required class="input-color">
+
+                <br>
+                <br>
+
+                Address
+                <br>
+                <input type="text" name="streetaddress" placeholder="Street Address" size="100" required
+                    class="input-color">
+                <br>
+                <br>
+                <input type="text" name="city" placeholder="city" required class="input-color">
+                <input type="text" name="province" placeholder="Province" required class="input-color">
+                <br>
+                <br>
+                <input type="text" name="postal/zipcode" placeholder="Postal / Zip Code" class="input-color">
+                <input type="text" name="country" placeholder="Country" required class="input-color">
+
+            </div>
+        </fieldset>
+
+        <br>
+
+        <fieldset class="main-border">
+
+            <legend class="p-t-info"> Tour Details </legend>
+            <div class="p-t-info">
+                When are you planning to visit?
+                <br>
+                <input type="date" name="dateofvisiting" required class="input-color">
+
+                <br>
+                <br>
+
+                How many people are in your group?
+                <br>
+                <input type="number" name="groupmembers" required class="input-color">
+
+                <br>
+                <br>
+
+                Which tour or events are you most interested in?
+                <br>
+                <input type="text" name="interestdtour/event" size="100" class="input-color">
+
+                <br>
+                <br>
+
+                What is the best way to contact you?
+                <br>
+                <input type="checkbox" name="phone" value="phone" class="input-color">Phone
+                <input type="checkbox" name="email" value="email" class="input-color">Email
+                <input type="checkbox" name="either" value="either" class="input-color">Either
+
+                <br>
+                <br>
+
+                If phone, when is the best time of day for a call-back?
+                <br>
+                <input type="radio" name="calltimming" value="8-11" class="input-color">8-11 AM
+                <input type="radio" name="calltimming" value="12-4" class="input-color">12-4 AM
+                <input type="radio" name="calltimming" value="6-10" class="input-color">6-10 AM
+
+                <br>
+                <br>
+
+                Anything else we should know?
+                <br>
+                <textarea name="touristsuggestion" cols="100" rows="4" class="input-color"></textarea>
+
+            </div>
+        </fieldset>
+
+        <br>
+
+        <div id="submit-btn-2">
+            <input type="submit" name="submit" value="submit" id="submit-button">
+        </div>
+
+    </form>
+
+</body>
+
+</html>

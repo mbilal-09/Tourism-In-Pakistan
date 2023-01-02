@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(243, 238, 238);
+}
+
+.main-interface {
+    text-align: center;
+    background-color: rgb(215, 215, 218);
+    height: 250px;
+    padding: 100px;
+}
+
+.main-interface-child {
+
+}
+
+.main-interface-btn {
+    height: 70px;
+    width: 250px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.tourism-in-pakistan {
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+}
+
+.page-menu-bar {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.page-menu {
+    height: 50px;
+    width: 200px;
+    margin: auto;
+}
+
+.page-menu-items{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 200px;
+}
